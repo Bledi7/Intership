@@ -1,41 +1,63 @@
-
 .header-text {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .first-p {
-    font-family:'Segoe UI';
+    width: 818.89px;
+    height: 51.38px;
+    left: calc(50% - 818.89px/2 - 15.56px);
+    top: 109px;
+
+    font-family: 'Segoe UI';
+
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    /* or 140% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.section-two {
-    width: 60%;
+
+.section-one {
+
+    width: 62.5%;
+    margin-left: 20%;
+
 }
 
-
-
-
-
-.bootstrap-grid {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
-    /* gap: 20px; */
-    width: 120%;
-    
+p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 19px;
 }
 
 .bootstrap-grid-1 {
-    display: flex;
-    flex-direction: row;
+
     border: 1px solid rgb(222, 212, 212);
     border-radius: 10px;
-   
+
 
 }
 
 .bootstrap-grid-text {
     text-align: left;
     margin-left: 6%;
+
 }
 
 .circle {
@@ -47,11 +69,13 @@
     display: flex;
     flex-direction: column;
     margin-top: 10%;
-    margin-left: 22%;
+    margin-left: 25%;
     justify-content: space-between;
     gap: 30px;
-   
+
 }
+
+
 
 .section-three-text {
     display: flex;
@@ -72,13 +96,16 @@
 .section-three-text {
     cursor: pointer;
 }
+
 .section-three-text .content {
     display: none;
 }
-.content{
+
+.content {
     position: absolute;
     margin-top: 2%;
 }
-.whyUs:hover{
-       background-color: lightgray;
+
+.whyUs:hover {
+    background-color: lightgray;
 }
